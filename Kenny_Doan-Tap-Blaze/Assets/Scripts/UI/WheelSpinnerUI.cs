@@ -1,36 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
-using TMPro;
-using System.Linq;
 
-public class WheelSpinner : MonoBehaviour
+public class WheelSpinnerUI : MonoBehaviour
 {
-    public PrizeDatabase prizeDatabase;
     public SpinnerElement SpinnerElementPrefab;
     public ResultPrizeUI resultPrizeUI;
     public List<SpinnerElement> spinnerElements;
-    public float[] weights;
     public RectTransform TargetGraphic;
     private float wedgeAngle = 360f / 8f;
     private int wedges = 8;
 
     public GameObject SpinButton;
     public GameObject ClaimButton;
-
     [Space]
     public TweenElement tweenElement;
 
     private void Start()
     {
-        PopulateWheelSpinner();
     }
 
     /// <summary>
     /// Initialize the generate the data for the wheel spinner based on the public variables
     /// </summary>
-    public void PopulateWheelSpinner()
+    public void PopulateWheelSpinner(PrizeDatabase prizeDatabase)
     {
         // Clear the wheel of previous elements
         spinnerElements.Clear();
@@ -44,7 +37,6 @@ public class WheelSpinner : MonoBehaviour
         wedgeAngle = 360f / wedges;
 
         float currentChance = 0;
-        weights = new float[prizeDatabase.Prizes.Length];
         // Generate the wedges and the elements in them based on the prize data
         for (int i = 0; i < prizeDatabase.Prizes.Length; i++)
         {
@@ -56,27 +48,14 @@ public class WheelSpinner : MonoBehaviour
             RectTransform rect = se.GetComponent<RectTransform>();
             rect.localEulerAngles = new Vector3(0, 0, (wedgeAngle * .5f) + wedgeAngle * i);
             spinnerElements.Add(se);
-            weights[i] = lootData.Weight;
         }
 
         spinnerElements.Reverse();
     }
 
 
-    private IEnumerator spinningCoroutine;
-    /// <summary>
-    /// Spins the wheel once
-    /// </summary>
-    public void SpinWheel()
-    {
-        if (spinningCoroutine != null) // Dont spin if already spinning
-            return;
+    public IEnumerator spinningCoroutine;
 
-        int index = SpinWheel(1)[0];
-
-        WinPrizeAt(index);
-
-    }
 
     /// <summary>
     /// Win the prize at the given index
@@ -89,54 +68,6 @@ public class WheelSpinner : MonoBehaviour
         float targetAngle = Random.Range(index * wedgeAngle, (index + 1) * wedgeAngle);
         spinningCoroutine = SpinWheelCoroutine(targetAngle, 3, index);
         StartCoroutine(spinningCoroutine);
-    }
-
-    /// <summary>
-    /// Test for the spinning and simulating the wheel 1000 times
-    /// </summary>
-    /// <param name="text"></param>
-    public void SpinWheel1000(TextMeshProUGUI text)
-    {
-        Debug.Log("Starting Test");
-        int[] indexes = SpinWheel(1000);
-        Dictionary<string, int> winningData = new Dictionary<string, int>();
-        for (int i = 0; i < indexes.Length; i++)
-        {
-            int index = indexes[i];
-            string name = spinnerElements[index].lootData.PrizeData.Name;
-            if (!winningData.ContainsKey(name))
-            {
-                winningData.Add(name, 1);
-            }
-            else
-            {
-                winningData[name]++;
-            }
-        }
-
-        var sortedDict = winningData.OrderBy(entry => entry.Key).ToDictionary(entry => entry.Key, entry => entry.Value);
-
-        string result = "Output Data:\n";
-        foreach (var item in sortedDict)
-        {
-            string data = item.Key + " : " + item.Value + " Hits | ~" + (int)(((float)item.Value / indexes.Length) * 100f) + "%" + "\n";
-            result += data;
-            Debug.Log(data);
-        }
-        text.text = result;
-
-        Debug.Log("Test Complete, ran " + indexes.Length + " Spins");
-
-    }
-
-    /// <summary>
-    /// Return an array of winning indexes for the spinner
-    /// </summary>
-    public int[] SpinWheel(int amount)
-    {
-        int[] winningIndexes = ProbabilityManager.PickIndexes(weights, amount);
-
-        return winningIndexes;
     }
 
     /// <summary>

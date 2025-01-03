@@ -17,6 +17,6 @@ public class ManualButton : MonoBehaviour
 
     public void SetPrizeIndex(int index)
     {
-        spinner.WinPrizeAt(index);
+        spinner.wheelUI.WinPrizeAt(index);
     }
 }

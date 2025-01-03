@@ -1,0 +1,415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c233f660ccc285140b8450f54dd326a5, type: 3}
+  m_Name: PDB_PrizeDatabase2
+  m_EditorClassIdentifier: 
+  Prizes:
+  - ID: 0
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 10088c9035807944ca8886d0650f69e7, type: 2}
+  - ID: 1
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: c725913de1cd5f6499e4ecdac291fe7a, type: 2}
+  - ID: 2
+    Weight: 10
+    ChanceToSpawn: 0.005154639
+    PrizeData: {fileID: 11400000, guid: da366cc06c13add4eaae5b1851a3a65f, type: 2}
+  - ID: 3
+    Weight: 5
+    ChanceToSpawn: 0.0025773195
+    PrizeData: {fileID: 11400000, guid: a914433caa01aa142be4fe1356e8202d, type: 2}
+  - ID: 4
+    Weight: 10
+    ChanceToSpawn: 0.005154639
+    PrizeData: {fileID: 11400000, guid: 6360d9156b3a04d438de1be79f751b51, type: 2}
+  - ID: 5
+    Weight: 5
+    ChanceToSpawn: 0.0025773195
+    PrizeData: {fileID: 11400000, guid: 40994e48f5621eb43975d0bceea80430, type: 2}
+  - ID: 6
+    Weight: 10
+    ChanceToSpawn: 0.005154639
+    PrizeData: {fileID: 11400000, guid: 3bf001a70b3debc4383327dd62024b83, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 7
+    Weight: 20
+    ChanceToSpawn: 0.010309278
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
+  - ID: 8
+    Weight: 1
+    ChanceToSpawn: 0.00051546394
+    PrizeData: {fileID: 11400000, guid: 1966fcbf3eee56746b6fd90724a5dc20, type: 2}
